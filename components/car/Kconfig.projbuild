@@ -1,0 +1,9 @@
+menu "Car Comp Configuration"
+
+    config ENGINE_CC
+        int "CC of engine"
+        range 0 34
+        default 5
+        help
+            Mention cubic capacity of an engine 
+endmenu
